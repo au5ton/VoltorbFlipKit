@@ -3,10 +3,10 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Test MyLibraryName",
+      "name": "Test VoltorbFlipKit",
       "program": "/Applications/Xcode.app/Contents/Developer/usr/bin/xctest",
-      "args": [".build/debug/MyLibraryNamePackageTests.xctest"],
-      "cwd": "${workspaceFolder:MyLibraryName}",
+      "args": [".build/debug/VoltorbFlipKitTests.xctest"],
+      "cwd": "${workspaceFolder:VoltorbFlipKit}",
 
       // https://github.com/swift-server/vscode-swift#automatic-task-creation
       "preLaunchTask": "swift: Build All"
