@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyPackageName",
+    name: "VoltorbFlipKit",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v15),
@@ -15,9 +15,9 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "MyLibraryName",
+            name: "VoltorbFlipKit",
             targets: [
-                "MyLibraryName",
+                "VoltorbFlipKit",
             ]
         ),
     ],
@@ -35,10 +35,10 @@ let package = Package(
         // Targets can depend on other targets in this package,
         // and on products in packages which this package depends on.
         .target(
-            name: "MyLibraryName",
+            name: "VoltorbFlipKit",
             dependencies: [
             ],
-            path: "Sources/MyLibraryName/",
+            path: "Sources/VoltorbFlipKit/",
             exclude: [
                 "Resources/README.txt",
             ],
@@ -47,11 +47,11 @@ let package = Package(
             ]
         ),
         .testTarget(
-            name: "MyLibraryNameTests",
+            name: "VoltorbFlipKitTests",
             dependencies: [
-                "MyLibraryName",
+                "VoltorbFlipKit",
             ],
-            path: "Tests/MyLibraryName/",
+            path: "Tests/VoltorbFlipKit/",
             exclude: [
                 "Resources/README.md",
                 "Toolbox/README.md",

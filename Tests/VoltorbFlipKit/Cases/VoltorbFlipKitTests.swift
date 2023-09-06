@@ -1,16 +1,16 @@
 import XCTest
-import MyLibraryName
+import VoltorbFlipKit
 
 
-final class MyLibraryNameTests: XCTestCase {
-    internal typealias SystemUnderTest = MyLibraryName
+final class VoltorbFlipKitTests: XCTestCase {
+    internal typealias SystemUnderTest = VoltorbFlipKit
 
     internal var sut: SystemUnderTest!
 }
 
 
 // MARK: - Lifecycle
-extension MyLibraryNameTests {
+extension VoltorbFlipKitTests {
 
     override func setUp() async throws {
         // Put setup code here.
@@ -36,7 +36,7 @@ extension MyLibraryNameTests {
 
 
 // MARK: - Factories
-extension MyLibraryNameTests {
+extension VoltorbFlipKitTests {
 
     internal func makeSUT() -> SystemUnderTest {
         .init(
@@ -54,7 +54,7 @@ extension MyLibraryNameTests {
 
 
 // MARK: - "Given" Helpers (Conditions Exist)
-extension MyLibraryNameTests {
+extension VoltorbFlipKitTests {
 
     internal func givenSomething() {
         // some state or condition is established
@@ -63,7 +63,7 @@ extension MyLibraryNameTests {
 
 
 // MARK: - "When" Helpers (Actions Are Performed)
-extension MyLibraryNameTests {
+extension VoltorbFlipKitTests {
 
     internal func whenSomethingHappens() {
         // perform some action
@@ -72,7 +72,7 @@ extension MyLibraryNameTests {
 
 
 // MARK: - Test - Init with Default Properties
-extension MyLibraryNameTests {
+extension VoltorbFlipKitTests {
 
     func test_Init_WhenCreatingWithDefaultProperties_ItSetsTextToExpectedValues() async throws {
         let expected = "Hello, World!"
